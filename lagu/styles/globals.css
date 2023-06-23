@@ -1,0 +1,94 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth !important;
+}
+:root {
+  --overlay-white-90: rgba(255, 255, 255, 0.9);
+  --overlay-white-80: rgba(255, 255, 255, 0.8);
+  --overlay-white-70: rgba(255, 255, 255, 0.7);
+  --overlay-white-60: rgba(255, 255, 255, 0.6);
+  --overlay-white-50: rgba(255, 255, 255, 0.5);
+  --overlay-white-40: rgba(255, 255, 255, 0.4);
+  --overlay-white-30: rgba(255, 255, 255, 0.3);
+  --overlay-white-20: rgba(255, 255, 255, 0.2);
+  --overlay-white-10: rgba(255, 255, 255, 0.1);
+  --overlay-black-90: rgba(0, 0, 0, 0.9);
+  --overlay-black-80: rgba(0, 0, 0, 0.8);
+  --overlay-black-70: rgba(0, 0, 0, 0.7);
+  --overlay-black-60: rgba(0, 0, 0, 0.6);
+  --overlay-black-50: rgba(0, 0, 0, 0.5);
+  --overlay-black-40: rgba(0, 0, 0, 0.4);
+  --overlay-black-30: rgba(0, 0, 0, 0.3);
+  --overlay-black-20: rgba(0, 0, 0, 0.2);
+  --overlay-black-10: rgba(0, 0, 0, 0.1);
+  --theme: #ff3b3b;
+  --second: #fcab8b;
+  --white: #ffffff;
+  --black: #000000;
+  --light: #c0c0c0;
+  --dark: #3f3f3f;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--theme) var(--white);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--theme);
+  border-radius: 0px;
+  border: 0px solid var(--white);
+}
+.slick-active,
+.slick-slide,
+.slick-center {
+  transition: all 1s !important;
+}
+.slick-center {
+  transform: scale(1.2) !important;
+}
+
+.slick-prev:before {
+  right: 10px !important;
+}
+
+.slick-next:before {
+  left: 10px !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: var(--theme) !important;
+  font-size: 28px !important;
+  position: absolute;
+}
+/* .slick-dots .slick-active {
+  color: var(--theme) !important;
+}
+.slick-dots li button {
+  color: var(--theme) !important;
+} */
+.slick-dots li button:before {
+  color: var(--theme) !important;
+  font-size: 8px !important;
+}

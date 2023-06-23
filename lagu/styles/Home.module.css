@@ -1,0 +1,64 @@
+.home {
+  display: block;
+}
+.colorBlack {
+  color: #000;
+}
+.categoryTitle {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.categoryContainer {
+  padding: 30px 0;
+}
+.categorySection {
+  background-color: #fff;
+  color: #1f96cc;
+  cursor: default;
+}
+.categoryContent {
+  padding: 0 10px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.categoryContent a {
+  border-top: 3px solid #000;
+  transition: all 0.15s;
+}
+.categoryContent a:hover {
+  border-top: 3px solid #1f96cc;
+  transition: all 0.15s;
+  color: #1f96cc;
+}
+.topTracksTitle {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+.topTracksTitle > span {
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--black);
+}
+
+.searchArtist {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.searchArtist > span {
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--black);
+}

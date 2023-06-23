@@ -1,0 +1,45 @@
+.navbar {
+  background-color: var(--white);
+}
+
+.navbarcontent {
+  padding: 10px 10px;
+}
+
+.title {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.title :hover {
+  cursor: default;
+}
+.navbarItems .navbarText {
+  align-self: center;
+  padding: 5px 0;
+}
+.navbarItems .navbarText:hover {
+  cursor: pointer;
+}
+.navbarItems .navbarText,
+.navbarItems .navbarText:after,
+.navbarItems .navbarText:before {
+  transition: all 0.2s;
+}
+.navbarItems .navbarText {
+  position: relative;
+}
+.navbarItems .navbarText:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  height: 2px;
+}
+.navbarItems .navbarText:hover:after {
+  width: 100%;
+}
