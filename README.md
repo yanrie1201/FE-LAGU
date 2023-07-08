@@ -2,9 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server, install yarn same version and next version that suit with this project:
 
 ```bash
+yarn global add yarn@1.22.18
+yarn add next@13.4.9
 yarn install
 # and then
 yarn dev
