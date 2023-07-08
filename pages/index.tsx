@@ -6,7 +6,7 @@ import Navbar from '../components/navbar/index'
 import { Container, Grid } from '@mui/material'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import Provider from '../../../New folder/sirclo-test/src/provider/index'
+import Provider from '../provider/index'
 import { toast } from 'react-toastify'
 import MUIDataTable from 'mui-datatables'
 
