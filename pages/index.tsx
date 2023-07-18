@@ -137,7 +137,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Home - SIRCLO</title>
+        <title>Home - SekawanMedia</title>
         <meta name="description" content="SIRCLO" />
       </Head>
 
